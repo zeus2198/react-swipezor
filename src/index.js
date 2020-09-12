@@ -76,7 +76,10 @@ function SwipeButton({
   });
 
   return (
-    <div className={`swipezor-but ${classList}`} {...handlers} ref={buttonRef}>
+    <div className={`swipezor-but ${classList}`} {...handlers} ref={(t) => {
+      handlers.ref(t);
+      buttonRef.current = t;
+    }}>
       <div className={`swipezor-overlay ${overlayClassList}`} style={{ width: overlayWidth }}>
         <div className="swipezor-overlay-wrapper">
           <div className={`swipezor-caret-wrapper ${caretClassList}`}>
