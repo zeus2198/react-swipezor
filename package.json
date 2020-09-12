@@ -1,0 +1,50 @@
+{
+  "name": "react-swipezor",
+  "version": "1.0.1",
+  "description": "A beautiful react swipe button compitable with both desktop and mobile.",
+  "repository": "github:xxxzeus/react-swipezor",
+  "main": "build/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react-swipezor",
+    "react",
+    "swipe-button",
+    "swipe",
+    "button",
+    "slide",
+    "swipe",
+    "button",
+    "slide-button",
+    "slide",
+    "button",
+    "swipezor"
+  ],
+  "author": "Simran Singh",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">= 16.8.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-swipeable": "^5.5.1",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
