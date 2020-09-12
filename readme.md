@@ -4,6 +4,7 @@ A beautiful react swipe button compatible with both desktop and mobile. This but
 <center>
 <img src="https://xxxzeus.github.io/asset/swipe-mock.gif" />
 </center>
+
 ## Installation
 ```bash
 npm install --save react-swipezor
