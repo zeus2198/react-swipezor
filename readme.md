@@ -1,5 +1,9 @@
 # react-swipezor
-A beautiful react swipe button compitable with both desktop and mobile. This button uses [react-swipeable](https://github.com/FormidableLabs/react-swipeable) to detect the swipe action.
+A beautiful react swipe button compatible with both desktop and mobile. This button uses [react-swipeable](https://github.com/FormidableLabs/react-swipeable) to detect the swipe action.
+
+<center>
+<img src="https://xxxzeus.github.io/asset/swipe-mock.gif" />
+</center>
 ## Installation
 ```bash
 npm install --save react-swipezor
