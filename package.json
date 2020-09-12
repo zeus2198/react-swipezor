@@ -1,7 +1,7 @@
 {
   "name": "react-swipezor",
   "version": "1.0.1",
-  "description": "A beautiful react swipe button compitable with both desktop and mobile.",
+  "description": "A beautiful react swipe button compatible with both desktop and mobile.",
   "repository": "github:xxxzeus/react-swipezor",
   "main": "build/index.js",
   "types": "src/index.d.ts",

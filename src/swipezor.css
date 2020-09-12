@@ -1,0 +1,70 @@
+.swipezor-but * {
+  box-sizing: border-box;
+}
+.swipezor-but {
+  border: 2px solid #444;
+  min-width: 200px;
+  padding: 11px;
+  position: relative;
+  overflow: hidden;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  user-select: none;
+  /* box-sizing: border-box; */
+}
+.swipezor-but * {
+  pointer-events: none;
+  user-select: none;
+}
+.swipezor-but .swipezor-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  width: 2rem;
+  background: #444;
+  transition: width 0.2s ease-out;
+  will-change: width;
+  overflow: hidden;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swipezor-but .swipezor-overlay .swipezor-overlay-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.swipezor-but .swipezor-overlay .swipezor-caret-wrapper {  
+  position: absolute;
+  max-width: 45px;
+  width: 40px;
+  min-width: 0;
+  right: 0;
+  top: 50%;
+  height: 100%;
+  transform: translateY(-50%);
+  background: #444;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+.swipezor-but .swipezor-overlay .swipezor-overlay-txt {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}

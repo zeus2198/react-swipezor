@@ -1,0 +1,75 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.App {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.button-wrapper {
+  min-width: 20rem;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-gap: 1rem;
+}
+@media (min-width: 900px) {
+  .content-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.col {
+  padding: 1rem;
+}
+.col.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col.heading {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.my-class {
+  border-color: red !important;
+}
+.my-caret-class {
+  background: dodgerblue !important;
+}
+.my-overlay-class {
+  background: green !important;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
