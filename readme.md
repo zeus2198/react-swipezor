@@ -2,7 +2,7 @@
 A beautiful react swipe button compatible with both desktop and mobile. This button uses [react-swipeable](https://github.com/FormidableLabs/react-swipeable) to detect the swipe action.
 
 <center>
-<img src="https://xxxzeus.github.io/asset/swipe-mock.gif" />
+<img src="https://zeus2198.github.io/asset/swipe-mock.gif" />
 </center>
 
 ## Installation
@@ -14,7 +14,7 @@ or
 yarn add react-swipezor
 ```
 ## Demo / Example
-[Click here](https://xxxzeus.github.io/react-swipezor)
+[Click here](https://zeus2198.github.io/react-swipezor)
 
 ## Options
 | Key              | Type                 | Default | Description                                                                                                                                                                                                                            |
